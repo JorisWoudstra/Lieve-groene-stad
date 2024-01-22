@@ -1,0 +1,207 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    width: 375px;
+}
+
+header {
+height: 120px;
+}
+
+
+header img{
+    margin-top: 20px;
+}
+
+.logo {
+    padding-left: 12px;
+}
+
+nav {
+    position: absolute;
+    top: 16px;
+    left: 164px;
+    width: 190px;
+    background-color: #DBE6F4;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position:left ;
+    left: 0;
+    background-color: #f1f7ff;
+    width: 190px;
+    height: 174px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 12px 21px;
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.dropdown-content a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 13px;
+    padding-top: 21px;
+}
+
+.home{
+    width: 375px;
+    background-color: rgb(255, 255, 255);   
+}
+
+.home h2{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+line-height: normal;
+}
+
+.home h1{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home main img{
+    width: 224px;
+    height: 223px;
+    padding-left: 76px;
+    padding-top: 84px;
+
+}
+
+.home div{
+    text-decoration: none;
+    background-color: #DBE6F4;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    gap: 10px;
+    width: 283px;
+    margin-left: 45px;
+    margin-bottom: 15px;
+    color: #000;
+    }
+
+.home div a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.deceuvel h1{
+    color: #637D6F;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 19px;
+padding-right: 22px;
+}
+
+.deceuvel h2{
+    color: #222;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+padding-left: 19px;
+padding-right: 22px;
+}
+
+.deceuvel p{
+    color: #222;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+padding-left: 19px;
+padding-right: 22px;
+}
+
+
+
+
+.tuinieren h1{
+    color: #637D6F;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 21px;
+}
+
+
+
+
+
+.tuinieren h3{
+    color: #000;
+font-size: 16px;
+font-style: italic;
+font-weight: 700;
+line-height: 150%;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 19px;
+}
+
+.schep {
+    width: 177px;
+height: 180px;
+flex-shrink: 0;
+padding-left: 192.15px;
+
+}
+
+.hoebegonhet h1{
+    color: #637D6F;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
