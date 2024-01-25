@@ -4,13 +4,21 @@ body {
     padding: 0;
     background-color: #ffffff;
     width: 375px;
+    margin-top: 72px;
 }
 
-header {
-height: 120px;
+main{
+    background-image: url(images/1x/BACKGROUND_1.png);
+    min-height: 667px;
 }
 
-
+header{
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    height: 72px;
+    width: 375px;
+}
 header img{
     margin-top: 20px;
 }
@@ -23,11 +31,12 @@ nav {
     position: absolute;
     top: 16px;
     left: 164px;
-    width: 190px;
+    width: 200px;
+    height: 42px;
     background-color: #DBE6F4;
     display: flex;
-    flex-direction: column;
-    align-items: left;
+    flex-direction: row;
+
 }
 
 .dropdown {
@@ -40,7 +49,7 @@ nav {
     position:left ;
     left: 0;
     background-color: #f1f7ff;
-    width: 190px;
+    width: 200px;
     height: 174px;
 }
 
@@ -73,6 +82,29 @@ nav {
     padding-top: 21px;
 }
 
+header nav img{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: -7px;
+    right: 20px ;
+}
+
+header nav:hover img{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: -7px;
+    right: 20px ;
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+.title {
+    display: flex;
+    padding-right: 22px;
+}
+
 .home{
     width: 375px;
     background-color: rgb(255, 255, 255);   
@@ -102,7 +134,7 @@ line-height: normal;
     width: 224px;
     height: 223px;
     padding-left: 76px;
-    padding-top: 84px;
+    padding-top: 30px;
 
 }
 
@@ -124,6 +156,21 @@ line-height: normal;
     color: #000;
 }
 
+.hoebegonhet h1{
+    color: #637D6F;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 19px;
+}
+
+.hoebegonhet p{
+    padding-left: 19px;
+    line-height: 150%;
+    
+}
 
 .deceuvel h1{
     color: #637D6F;
@@ -158,11 +205,8 @@ padding-left: 19px;
 padding-right: 22px;
 }
 
-
-
-
 .tuinieren h1{
-    color: #637D6F;
+color: #637D6F;
 font-family: Inter;
 font-size: 40px;
 font-style: normal;
@@ -171,37 +215,77 @@ line-height: normal;
 padding-left: 21px;
 }
 
-
-
-
-
-.tuinieren h3{
-    color: #000;
-font-size: 16px;
-font-style: italic;
-font-weight: 700;
-line-height: 150%;
-}
-
-p {
-    font-size: 16px;
-    font-weight: 400;
+p{
     padding-left: 19px;
+    padding-right: 22px;
 }
 
-.schep {
-    width: 177px;
-height: 180px;
-flex-shrink: 0;
-padding-left: 192.15px;
-
-}
-
-.hoebegonhet h1{
+.tuinieren h1{
     color: #637D6F;
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+padding-left: 19px;
+padding-right: 22px;
 }
 
+.tuinieren h2{
+    color: #6F8F7E;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+padding-left: 19px;
+padding-right: 22px;
+}
+
+.tuinieren h3{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+padding-left: 19px;
+padding-right: 22px;
+font-style: italic;
+}
+
+.tuinieren main div img{
+    width: 30%;
+    height: 30%;
+    padding-top: 10px;
+    display: inline-block;
+    padding-bottom: 30px;   
+}
+
+.tuinieren main div{
+    text-align: center;
+}
+
+div h3, div p {
+    text-align: left;
+  }
+
+.ins{
+    background-color: #DBE6F4;
+}
+
+.ins img{
+    position: absolute ;
+}
+
+
+.insider{
+    color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; 
+padding-left: 19px;
+padding-top: 7px;
+}
+
+
+.final{
+    padding-bottom: 50px;
+}
