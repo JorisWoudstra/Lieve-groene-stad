@@ -40,17 +40,17 @@ nav {
 }
 
 .dropdown {
-    position: relative;
+    position: absolute;
     display: inline-block;
 }
 
 .dropdown-content {
     display: none;
-    position:left ;
+    position: left ;
     left: 0;
     background-color: #f1f7ff;
     width: 200px;
-    height: 174px;
+    height: 174px;   
 }
 
 .dropdown:hover .dropdown-content {
@@ -61,25 +61,27 @@ nav {
     padding: 12px 21px;
     text-decoration: none;
     color: #000000;
-    display: inline-block;
+    display: block;
     color: #000;
     font-size: 14px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     
 }
 
+
 .dropdown-content a {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     color: #000;
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
-    margin-left: 13px;
-    padding-top: 21px;
+    padding: 12px 21px;
+    display: block;
+    transition: background-color 0.3s ease; 
+}
+
+.dropdown-content a:hover {
+    background-color: #cde6ff; 
 }
 
 header nav img{
@@ -117,7 +119,7 @@ header nav:hover img{
     font-size: 20px;
     font-style: normal;
     font-weight: 200;
-line-height: normal;
+    line-height: normal;
 }
 
 .home h1{
@@ -149,21 +151,22 @@ line-height: normal;
     margin-left: 45px;
     margin-bottom: 15px;
     color: #000;
-    }
+ }
 
 .home div a{
     text-decoration: none;
     color: #000;
+    display: block;
 }
 
 .hoebegonhet h1{
     color: #637D6F;
-font-family: Inter;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-left: 19px;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 19px;
 }
 
 .hoebegonhet p{
@@ -174,45 +177,41 @@ padding-left: 19px;
 
 .deceuvel h1{
     color: #637D6F;
-font-family: Inter;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-left: 19px;
-padding-right: 22px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 19px;
+    padding-right: 22px;
 }
 
 .deceuvel h2{
     color: #222;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%;
-padding-left: 19px;
-padding-right: 22px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding-left: 19px;
+    padding-right: 22px;
 }
 
 .deceuvel p{
     color: #222;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%;
-padding-left: 19px;
-padding-right: 22px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-left: 19px;
+    padding-right: 22px;
 }
 
 .tuinieren h1{
-color: #637D6F;
-font-family: Inter;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-left: 21px;
+    color: #637D6F;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 21px;
 }
 
 p{
@@ -222,32 +221,32 @@ p{
 
 .tuinieren h1{
     color: #637D6F;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-left: 19px;
-padding-right: 22px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 19px;
+    padding-right: 22px;
 }
 
 .tuinieren h2{
     color: #6F8F7E;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%;
-padding-left: 19px;
-padding-right: 22px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding-left: 19px;
+    padding-right: 22px;
 }
 
 .tuinieren h3{
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%;
-padding-left: 19px;
-padding-right: 22px;
-font-style: italic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-left: 19px;
+    padding-right: 22px;
+    font-style: italic;
 }
 
 .tuinieren main div img{
@@ -277,12 +276,12 @@ div h3, div p {
 
 .insider{
     color: #000;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 36px; 
-padding-left: 19px;
-padding-top: 7px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+    padding-left: 19px;
+    padding-top: 7px;
 }
 
 
